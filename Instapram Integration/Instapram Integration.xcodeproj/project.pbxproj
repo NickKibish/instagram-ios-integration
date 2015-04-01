@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4384C97D1ACC38D500DACA7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4384C97C1ACC38D500DACA7E /* main.m */; };
+		4384C9801ACC38D500DACA7E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4384C97F1ACC38D500DACA7E /* AppDelegate.m */; };
+		4384C9831ACC38D500DACA7E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4384C9821ACC38D500DACA7E /* ViewController.m */; };
+		4384C9861ACC38D500DACA7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4384C9841ACC38D500DACA7E /* Main.storyboard */; };
+		4384C9881ACC38D500DACA7E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4384C9871ACC38D500DACA7E /* Images.xcassets */; };
+		4384C98B1ACC38D500DACA7E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4384C9891ACC38D500DACA7E /* LaunchScreen.xib */; };
+		4384C9971ACC38D500DACA7E /* Instapram_IntegrationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4384C9961ACC38D500DACA7E /* Instapram_IntegrationTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4384C9911ACC38D500DACA7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4384C96F1ACC38D500DACA7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4384C9761ACC38D500DACA7E;
+			remoteInfo = "Instapram Integration";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4384C9771ACC38D500DACA7E /* Instapram Integration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Instapram Integration.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4384C97B1ACC38D500DACA7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4384C97C1ACC38D500DACA7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4384C97E1ACC38D500DACA7E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4384C97F1ACC38D500DACA7E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4384C9811ACC38D500DACA7E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4384C9821ACC38D500DACA7E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4384C9851ACC38D500DACA7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4384C9871ACC38D500DACA7E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4384C98A1ACC38D500DACA7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4384C9901ACC38D500DACA7E /* Instapram IntegrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Instapram IntegrationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4384C9951ACC38D500DACA7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4384C9961ACC38D500DACA7E /* Instapram_IntegrationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Instapram_IntegrationTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4384C9741ACC38D500DACA7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4384C98D1ACC38D500DACA7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4384C96E1ACC38D500DACA7E = {
+			isa = PBXGroup;
+			children = (
+				4384C9791ACC38D500DACA7E /* Instapram Integration */,
+				4384C9931ACC38D500DACA7E /* Instapram IntegrationTests */,
+				4384C9781ACC38D500DACA7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4384C9781ACC38D500DACA7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4384C9771ACC38D500DACA7E /* Instapram Integration.app */,
+				4384C9901ACC38D500DACA7E /* Instapram IntegrationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4384C9791ACC38D500DACA7E /* Instapram Integration */ = {
+			isa = PBXGroup;
+			children = (
+				4384C97E1ACC38D500DACA7E /* AppDelegate.h */,
+				4384C97F1ACC38D500DACA7E /* AppDelegate.m */,
+				4384C9811ACC38D500DACA7E /* ViewController.h */,
+				4384C9821ACC38D500DACA7E /* ViewController.m */,
+				4384C9841ACC38D500DACA7E /* Main.storyboard */,
+				4384C9871ACC38D500DACA7E /* Images.xcassets */,
+				4384C9891ACC38D500DACA7E /* LaunchScreen.xib */,
+				4384C97A1ACC38D500DACA7E /* Supporting Files */,
+			);
+			path = "Instapram Integration";
+			sourceTree = "<group>";
+		};
+		4384C97A1ACC38D500DACA7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4384C97B1ACC38D500DACA7E /* Info.plist */,
+				4384C97C1ACC38D500DACA7E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4384C9931ACC38D500DACA7E /* Instapram IntegrationTests */ = {
+			isa = PBXGroup;
+			children = (
+				4384C9961ACC38D500DACA7E /* Instapram_IntegrationTests.m */,
+				4384C9941ACC38D500DACA7E /* Supporting Files */,
+			);
+			path = "Instapram IntegrationTests";
+			sourceTree = "<group>";
+		};
+		4384C9941ACC38D500DACA7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4384C9951ACC38D500DACA7E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4384C9761ACC38D500DACA7E /* Instapram Integration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4384C99A1ACC38D500DACA7E /* Build configuration list for PBXNativeTarget "Instapram Integration" */;
+			buildPhases = (
+				4384C9731ACC38D500DACA7E /* Sources */,
+				4384C9741ACC38D500DACA7E /* Frameworks */,
+				4384C9751ACC38D500DACA7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Instapram Integration";
+			productName = "Instapram Integration";
+			productReference = 4384C9771ACC38D500DACA7E /* Instapram Integration.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4384C98F1ACC38D500DACA7E /* Instapram IntegrationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4384C99D1ACC38D500DACA7E /* Build configuration list for PBXNativeTarget "Instapram IntegrationTests" */;
+			buildPhases = (
+				4384C98C1ACC38D500DACA7E /* Sources */,
+				4384C98D1ACC38D500DACA7E /* Frameworks */,
+				4384C98E1ACC38D500DACA7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4384C9921ACC38D500DACA7E /* PBXTargetDependency */,
+			);
+			name = "Instapram IntegrationTests";
+			productName = "Instapram IntegrationTests";
+			productReference = 4384C9901ACC38D500DACA7E /* Instapram IntegrationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4384C96F1ACC38D500DACA7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Nick Kibish";
+				TargetAttributes = {
+					4384C9761ACC38D500DACA7E = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					4384C98F1ACC38D500DACA7E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 4384C9761ACC38D500DACA7E;
+					};
+				};
+			};
+			buildConfigurationList = 4384C9721ACC38D500DACA7E /* Build configuration list for PBXProject "Instapram Integration" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4384C96E1ACC38D500DACA7E;
+			productRefGroup = 4384C9781ACC38D500DACA7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4384C9761ACC38D500DACA7E /* Instapram Integration */,
+				4384C98F1ACC38D500DACA7E /* Instapram IntegrationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4384C9751ACC38D500DACA7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4384C9861ACC38D500DACA7E /* Main.storyboard in Resources */,
+				4384C98B1ACC38D500DACA7E /* LaunchScreen.xib in Resources */,
+				4384C9881ACC38D500DACA7E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4384C98E1ACC38D500DACA7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4384C9731ACC38D500DACA7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4384C9831ACC38D500DACA7E /* ViewController.m in Sources */,
+				4384C9801ACC38D500DACA7E /* AppDelegate.m in Sources */,
+				4384C97D1ACC38D500DACA7E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4384C98C1ACC38D500DACA7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4384C9971ACC38D500DACA7E /* Instapram_IntegrationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4384C9921ACC38D500DACA7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4384C9761ACC38D500DACA7E /* Instapram Integration */;
+			targetProxy = 4384C9911ACC38D500DACA7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4384C9841ACC38D500DACA7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4384C9851ACC38D500DACA7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4384C9891ACC38D500DACA7E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4384C98A1ACC38D500DACA7E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4384C9981ACC38D500DACA7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4384C9991ACC38D500DACA7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4384C99B1ACC38D500DACA7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Instapram Integration/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4384C99C1ACC38D500DACA7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Instapram Integration/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4384C99E1ACC38D500DACA7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Instapram IntegrationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Instapram Integration.app/Instapram Integration";
+			};
+			name = Debug;
+		};
+		4384C99F1ACC38D500DACA7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Instapram IntegrationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Instapram Integration.app/Instapram Integration";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4384C9721ACC38D500DACA7E /* Build configuration list for PBXProject "Instapram Integration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4384C9981ACC38D500DACA7E /* Debug */,
+				4384C9991ACC38D500DACA7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4384C99A1ACC38D500DACA7E /* Build configuration list for PBXNativeTarget "Instapram Integration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4384C99B1ACC38D500DACA7E /* Debug */,
+				4384C99C1ACC38D500DACA7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4384C99D1ACC38D500DACA7E /* Build configuration list for PBXNativeTarget "Instapram IntegrationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4384C99E1ACC38D500DACA7E /* Debug */,
+				4384C99F1ACC38D500DACA7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4384C96F1ACC38D500DACA7E /* Project object */;
+}
